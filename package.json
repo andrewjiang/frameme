@@ -1,0 +1,35 @@
+{
+  "name": "frame-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@airstack/node": "^0.0.5",
+    "@neynar/nodejs-sdk": "^1.9.6",
+    "api": "^6.1.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.3",
+    "ethers": "^6.11.0",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "mathjs": "^12.3.2",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.3",
+    "sharp": "^0.33.2",
+    "shortid": "^2.2.16",
+    "text-to-svg": "^3.1.5",
+    "web3": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
